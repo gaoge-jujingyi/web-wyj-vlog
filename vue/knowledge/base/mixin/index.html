@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>基础-混入 | web-wyj-vlog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/web-wyj-vlog/logo.png">
+    <meta name="description" content="一个前端的科技和狠活">
+    
+    <link rel="preload" href="/web-wyj-vlog/assets/css/0.styles.21864989.css" as="style"><link rel="preload" href="/web-wyj-vlog/assets/js/app.1ce8f79f.js" as="script"><link rel="preload" href="/web-wyj-vlog/assets/js/2.88e8959c.js" as="script"><link rel="preload" href="/web-wyj-vlog/assets/js/53.815c3848.js" as="script"><link rel="preload" href="/web-wyj-vlog/assets/js/4.1605d73d.js" as="script"><link rel="prefetch" href="/web-wyj-vlog/assets/js/10.197582bd.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/11.db9c123a.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/12.10eae5ac.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/13.e5ded546.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/14.bcd2ac27.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/15.886a8712.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/16.7da8fba0.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/17.248e8407.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/18.6b1d703c.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/19.41f1e9e5.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/20.e2aa494e.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/21.d0980602.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/22.fda5c844.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/23.36623333.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/24.0476fe9a.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/25.bb1f3ab3.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/26.cac4456f.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/27.39d5878d.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/28.455002c3.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/29.13cc1701.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/3.1d96d567.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/30.11749e7f.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/31.c808fb3d.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/32.f0ecd685.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/33.41117ee9.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/34.aa07986f.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/35.f3b510a8.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/36.f36ca5a8.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/37.e7403947.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/38.c827aef7.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/39.ded1be00.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/40.7a7340e2.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/41.c8abfab5.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/42.8b83ca0b.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/43.be214b61.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/44.386af19a.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/45.0bb97d24.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/46.4fdbeb9f.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/47.fd65cb9b.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/48.7782647a.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/49.fe68984f.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/5.a6959013.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/50.58fae691.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/51.5c0143b6.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/52.bbb3fe45.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/54.e018780c.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/55.1db37807.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/56.f6cc0b5c.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/57.47c1effa.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/58.9fc1a4eb.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/59.1e178b8c.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/6.04525e9b.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/60.019d766e.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/61.8013255a.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/62.9fe1652c.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/63.1c0bf043.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/64.d6f26b56.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/65.6e556cc7.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/66.efa339a9.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/67.51ffb558.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/68.c87639f6.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/69.cf8650f8.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/7.135f87dd.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/70.606f6982.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/71.af5cdc04.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/8.e8795399.js"><link rel="prefetch" href="/web-wyj-vlog/assets/js/9.ebc70916.js">
+    <link rel="stylesheet" href="/web-wyj-vlog/assets/css/0.styles.21864989.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/web-wyj-vlog/" class="home-link router-link-active"><img src="/web-wyj-vlog/logo.png" alt="web-wyj-vlog" class="logo"> <span class="site-name can-hide">web-wyj-vlog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/web-wyj-vlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/web/html/" class="nav-link">
+  前端三剑客
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/vue/knowledge/base/instruction/" class="nav-link">
+  Vue生态圈
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/audition/prepare/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/node/core/" class="nav-link">
+  node
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/recreation/website/" class="nav-link">
+  娱乐
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/vlog/2022_year/" class="nav-link">
+  vlog
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/about/introduce/" class="nav-link">
+  关于我
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/web-wyj-vlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/web/html/" class="nav-link">
+  前端三剑客
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/vue/knowledge/base/instruction/" class="nav-link">
+  Vue生态圈
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/audition/prepare/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/node/core/" class="nav-link">
+  node
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/recreation/website/" class="nav-link">
+  娱乐
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/vlog/2022_year/" class="nav-link">
+  vlog
+</a></div><div class="nav-item"><a href="/web-wyj-vlog/about/introduce/" class="nav-link">
+  关于我
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/web-wyj-vlog/vue/knowledge/base/instruction/" class="sidebar-heading clickable open"><span>vue</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/web-wyj-vlog/vue/knowledge/base/instruction/" class="sidebar-heading clickable open"><span>vue基础</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/web-wyj-vlog/vue/knowledge/base/instruction/" class="sidebar-link">vue指令</a></li><li><a href="/web-wyj-vlog/vue/knowledge/base/binding/" class="sidebar-link">双向绑定原理</a></li><li><a href="/web-wyj-vlog/vue/knowledge/base/filter/" class="sidebar-link">过滤器</a></li><li><a href="/web-wyj-vlog/vue/knowledge/base/computed/" class="sidebar-link">计算属性</a></li><li><a href="/web-wyj-vlog/vue/knowledge/base/watch/" class="sidebar-link">监听</a></li><li><a href="/web-wyj-vlog/vue/knowledge/base/mixin/" aria-current="page" class="active sidebar-link">混入</a></li></ul></section></li><li><a href="/web-wyj-vlog/vue/knowledge/cycle/" class="sidebar-link">生命周期</a></li><li><a href="/web-wyj-vlog/vue/knowledge/componentsIM/" class="sidebar-link">组件通讯</a></li><li><a href="/web-wyj-vlog/vue/knowledge/routers/" class="sidebar-link">路由</a></li><li><a href="/web-wyj-vlog/vue/knowledge/state/" class="sidebar-link">状态管理vuex和pinia</a></li><li><a href="/web-wyj-vlog/vue/knowledge/vue3/" class="sidebar-link">vue3.0</a></li></ul></section></li><li><a href="/web-wyj-vlog/vue/uniApp/" class="sidebar-link">uni-app</a></li><li><a href="/web-wyj-vlog/vue/nuxt/" class="sidebar-link">nuxt</a></li><li><a href="/web-wyj-vlog/vue/viewUI/" class="sidebar-link">UI组件库</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="基础-混入"><a href="#基础-混入" class="header-anchor">#</a> 基础-混入</h1> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'hello web'</span><span class="token punctuation">)</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/web-wyj-vlog/vue/knowledge/base/watch/" class="prev">
+        监听
+      </a></span> <span class="next"><a href="/web-wyj-vlog/vue/knowledge/cycle/">
+        生命周期
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/web-wyj-vlog/assets/js/app.1ce8f79f.js" defer></script><script src="/web-wyj-vlog/assets/js/2.88e8959c.js" defer></script><script src="/web-wyj-vlog/assets/js/53.815c3848.js" defer></script><script src="/web-wyj-vlog/assets/js/4.1605d73d.js" defer></script>
+  </body>
+</html>
